@@ -10,9 +10,9 @@ export default class Submit extends React.Component {
     }
 
     goodCompliment() {
-        console.log('show compliment');
-        var complimentsss = ["You are a better programmer than Ryan Dahl", "You have better ", "You are MORE really really really ridiculously good looking than Derek Zoolander"];
-        complimentsss[Math.floor((Math.random() * 3))]
+        console.log('good compliment');
+        var plusCompliments = ["You are a better programmer than Ryan Dahl", "You have better ", "You are MORE really really really ridiculously good looking than Derek Zoolander"];
+        plusCompliments[Math.floor((Math.random() * 3))]
         return (
             <div>
                 'I am Good'
@@ -22,8 +22,8 @@ export default class Submit extends React.Component {
 
     badCompliment() {
         console.log('bad compliment');
-        var complimentsss = ["1", "2", "3"];
-        complimentsss[Math.floor((Math.random() * 3))]
+        var minusCompliments = ["1", "2", "3"];
+        minusCompliments[Math.floor((Math.random() * 3))]
         return (
             <div>
                 {'I am Bad'}
