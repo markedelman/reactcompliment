@@ -11,7 +11,7 @@ export default class Submit extends React.Component {
 
     goodCompliment() {
         console.log('good compliment');
-        var plusCompliments = ["You are a better programmer than Ryan Dahl", "You have better ", "You are MORE really really really ridiculously good looking than Derek Zoolander"];
+        var plusCompliments = ["You out-program Ryan Dahl", "You will be a great success ", "You're  better looking than Derek Zoolander"];
         plusCompliments[Math.floor((Math.random() * 3))]
         return (
             <div>
