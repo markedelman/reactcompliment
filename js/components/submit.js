@@ -15,7 +15,7 @@ export default class Submit extends React.Component {
         complimentsss[Math.floor((Math.random() * 3))]
         return (
             <div>
-                <h1>'I am Good'</h1>
+                'I am Good'
             </div>
         );
     }
