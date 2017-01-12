@@ -11,22 +11,22 @@ export default class Submit extends React.Component {
 
     goodCompliment() {
         console.log('good compliment');
-        var plusCompliments = ["You out-program Ryan Dahl", "You will be a great success ", "You're  better looking than Derek Zoolander"];
+        var plusCompliments = ["good1", "good2", "good3"];
         plusCompliments[Math.floor((Math.random() * 3))]
         return (
             <div>
-                'I am Good'
+                    //<Display text="goodCompliment" functionCompliments={this.goodCompliment}/>
             </div>
         );
     }
 
     badCompliment() {
         console.log('bad compliment');
-        var minusCompliments = ["1", "2", "3"];
+        var minusCompliments = ["bad1", "bad2", "bad3"];
         minusCompliments[Math.floor((Math.random() * 3))]
         return (
             <div>
-                {'I am Bad'}
+                    //<Display text="badCompliment" functionCompliments={this.badCompliment}/>
             </div>
         );
     }
